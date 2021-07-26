@@ -9,7 +9,7 @@ public class PlayGround {
   public static void main(String[] args) {
     ISocketable amethyst = new Chipped().getAmethystGem();
     amethyst.socketableHelm();
-
+    System.out.println("New git commit");
     Armor bodyArmor = new Armor("MyArmor", 0, 5);
     System.out.println(bodyArmor.getSocketsCount());
     bodyArmor.insertSocket(amethyst);
